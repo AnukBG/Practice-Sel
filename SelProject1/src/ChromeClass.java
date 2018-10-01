@@ -13,6 +13,8 @@ public class ChromeClass {
 	      System.out.println(driver.getTitle());
 		  driver.close();
 	      driver.quit();
+	      
+	      System.out.println("Hello world");
 		
 
 	}

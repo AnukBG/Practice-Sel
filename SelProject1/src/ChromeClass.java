@@ -12,7 +12,7 @@ public class ChromeClass {
 		  driver.get("http://google.com");
 	      System.out.println(driver.getTitle());
 		  driver.close();
-	      //driver.quit();
+	      driver.quit();
 		
 
 	}
